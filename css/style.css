@@ -1027,28 +1027,41 @@ ul.port-nav-list li a.active {
     overflow: hidden;
     position: relative;
 }
+.resumes li addr {
+    position:absolute;
+    top:20px;
+    left:20px;
+}
 
-.resumes li h3 {
+.resume li .addr-container{
+    position: relative;
+}
+.resumes li .addr-container h3, h3 {
     font-size: 16px;
     margin-bottom: 12px;
 }
 
-.resumes li h4 {
-    text-transform: uppercase;
+.resumes li .addr-container h4, h4 {
+    
     font-size: 15px;
     color: #00B0DC;
+    margin-bottom: 12px;
 }
 
-.resumes li h5 {
+.resumes li .addr-container h5, h5 {
     margin-bottom: 8px;
 }
 
-.resumes li p {
+.resumes li .addr-container p, p{
     margin-bottom: 0;
     font-size: 15px;
     position: relative;
     z-index: 1;
 }
+
+
+
+
 
 /*-------- Experience area ends -------------*/
 
