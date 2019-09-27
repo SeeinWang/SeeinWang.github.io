@@ -944,10 +944,12 @@ canvas{
 }
 
 .right-contact-text {
+    text-align: center;
     margin-bottom: 25px;
 }
 
 .right-contact-text i {
+    text-align: center;
     color: #00B0DC;
     font-size: 25px;
     margin-bottom: 10px;
