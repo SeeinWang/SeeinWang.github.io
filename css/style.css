@@ -1,11 +1,6 @@
 /*********************************************************
 
-    Template Name:  Robin - Personal Portfolio HTML Template
-    Author: MouriTheme
-    Version: 1.0
-    Design and Developed by: MouriTheme
-
-    NB: This is the main stylesheet of this theme.
+ 
 
 ***********************************************************/
 
@@ -20,22 +15,15 @@
 6. About area css
 7. Services area css
 8. skills area css
-9. Portfolio area css
-10. Statistic area css
-11. Experience area css
-12. Testimonial area css
-13. Contact area css
-14. Footer area css
+9. Statistic area css
+10. Experience area css
+11. Contact area css
+12. Footer area css
 
 */
 
 
-/*===============================
-	1. Google Fonts
-===============================*/
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,600');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600');
 
 
 
@@ -832,134 +820,7 @@ canvas{
 
 /*--------- Skills area ends --------------*/
 
-/*----------- 9. Portfolio area Starts --------*/
 
-.portfolio-area {
-    background: #fafafa;
-}
-
-.project-item img {
-    width: 100%;
-}
-
-.overlay {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    bottom: 0px;
-    right: 0px;
-    background: #00B0DC;
-    opacity: 0;
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -ms-transition: all .5s ease;
-    -o-transition: all .5s ease;
-    transition: all .5s ease;
-    cursor: crosshair;
-}
-
-.overlay .overlay-inner {
-    position: absolute;
-    top: 35%;
-    width: 100%;
-    text-align: center;
-}
-
-.overlay .overlay-inner h4 {
-    color: #ffffff !important;
-    margin-bottom: 0 !important;
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    -ms-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
-    -webkit-transform: translateY(-30px);
-    -moz-transform: translateY(-30px);
-    -ms-transform: translateY(-30px);
-    -o-transform: translateY(-30px);
-    transform: translateY(-30px);
-    text-transform: uppercase;
-    font-size: 25px;
-    letter-spacing: 1px;
-}
-
-.overlay .overlay-inner p {
-    color: #fff;
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    -ms-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
-    -webkit-transform: translateY(30px);
-    -moz-transform: translateY(30px);
-    -ms-transform: translateY(30px);
-    -o-transform: translateY(30px);
-    transform: translateY(30px);
-    margin-top: 10px;
-}
-
-.project-item:hover .overlay .overlay-inner h4 {
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -o-transform: translateY(0);
-    transform: translateY(0);
-}
-
-.project-item:hover .overlay .overlay-inner p {
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -o-transform: translateY(0);
-    transform: translateY(0);
-}
-
-.project-item a:hover .overlay {
-    opacity: 1;
-}
-
-ul.port-nav-list {
-    padding: 0 0 50px 0;
-    list-style: none;
-    text-align: center;
-}
-
-ul.port-nav-list li {
-    display: inline-block;
-    margin-right: 10px;
-}
-
-ul.port-nav-list li a {
-    display: block;
-    cursor: pointer;
-    color: #262626;
-    font-size: 18px;
-    padding: 8px 12px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 100;
-}
-
-ul.port-nav-list li a.active {
-    color: #00B0DC;
-}
-
-.port-items {
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-.portfolio-items .port-items .single-port {
-    overflow: hidden;
-    margin-bottom: 25px;
-}
-
-.single-port {
-    padding: 0;
-}
-
-/*-------- Portfolio area css ends---------*/
 
 /*--------- 10. Statistic area starts -----------*/
 
@@ -1067,96 +928,6 @@ ul.port-nav-list li a.active {
 
 /*-------- Experience area ends -------------*/
 
-/*------- 12. Testimonial area css starts --------*/
-
-.testimonial-area .section-title h2 {
-    color: #fff;
-}
-
-.testimonial-area{
-    background-image: url(../images/testimonial/1.jpeg);
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    position: relative;
-    z-index: 1;
-}
-.testimonial-area:before{
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.7);
-    z-index: -1;
-}
-.single-testimonial {
-    background: #ffffff;
-    border-radius: 5px;
-    padding: 30px;
-}
-
-.single-testimonial p {
-    margin-bottom: 30px;
-}
-
-.single-testimonial h2 {
-    margin: 10px 0 0;
-    font-size: 18px;
-    text-transform: uppercase;
-}
-
-.testi-comment i {
-    font-size: 30px;
-    color: #00B0DC;
-}
-
-.single-testimonial h3 {
-    margin: 10px 0 0;
-    font-weight: 100;
-    font-size: 15px;
-}
-
-.testi-img {
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    overflow: hidden;
-}
-
-.testi-img img {
-    width: 100%;
-    height: 100%;
-}
-
-.owl-theme .owl-controls{
-    margin-top: 50px;
-    margin-left: 30px;
-}
-
-.owl-dots{
-    text-align: center;
-    margin-top: 30px;
-}
-
-.owl-dot {
-    display: inline-block;
-    height: 15px !important;
-    width: 15px !important;
-    background-color: #ffffff !important;
-    opacity: 0.8;
-    border-radius: 50%;
-    margin: 0 5px;
-}
-
-.owl-dot.active {
-    background-color: #00B0DC !important;
-}
-
-
-/*------- testimonial area ends --------*/
 
 /*-------------13. Contact area starts -------------*/
 
