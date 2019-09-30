@@ -596,10 +596,10 @@ canvas{
     text-transform: uppercase;
 }
 
-.about-right p{
+.about-right .para{
     margin-bottom: 10px;
 }
-.about-right p:last-of-type{
+.about-right .para:last-of-type{
     margin-bottom: 30px;
 }
 
