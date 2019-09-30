@@ -596,62 +596,13 @@ canvas{
     text-transform: uppercase;
 }
 
-.about-text-right h3 {
-    color: #fafafa;
-    margin-bottom: 45px;
-}
-
-.about-text-right h6 {
-    color: #333333;
-}
-
-.about-right p span {
-    color: #262626;
-    font-weight: bold;
-    letter-spacing: 2px;
-}
-
-.about-list{
-    list-style: none;
-}
-
-.about-right .about-list li {
+.about-right p{
     margin-bottom: 10px;
 }
-.about-right .about-list li .title {
-    position: relative;
-    margin-right: 10px;
-    padding-bottom: 1px;
-    color: #a1a1a1;
-    font-weight: 700;
+.about-right p:last-of-type{
+    margin-bottom: 30px;
 }
-.about-right .about-list li .title:before {
-    content: "";
-    position: absolute;
-    height: 2px;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    background: #e1e1e1;
-    -webkit-border-radius: 2px;
-    border-radius: 2px;
-}
-.about-right .about-list li .title:after {
-    position: absolute;
-    content: ':';
-    right: -8px;
-}
-.about-right .about-list li .value {
-    position: relative;
-}
-.about-right .about-list li .value:before {
-    content: "";
-    position: absolute;
-    height: 2px;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-}
+
 
 /*-------About area css ends--------------*/
 
@@ -822,7 +773,7 @@ canvas{
 
 
 
-/*--------- 10. Statistic area starts -----------*/
+/*--------- 9. Statistic area starts -----------*/
 
 .statistic-area{
     background-image: url(../images/statistic/stats.jpg);
@@ -872,7 +823,7 @@ canvas{
 
 /*----------------Statistic area ends-------------------*/
 
-/*-------- 11. Experience area starts -------------*/
+/*-------- 10. Experience area starts -------------*/
 
 .fix-down {
     margin-bottom: -30px;
@@ -929,7 +880,7 @@ canvas{
 /*-------- Experience area ends -------------*/
 
 
-/*-------------13. Contact area starts -------------*/
+/*-------------11. Contact area starts -------------*/
 
 .contact-area{
     background-color: #ffffff;
@@ -989,7 +940,7 @@ canvas{
 }
 /*------------- Contact area ends -------------*/
 
-/*--------------16. Footer area starts -------------*/
+/*--------------12. Footer area starts -------------*/
 
 .footer-area {
     background: #171717;
