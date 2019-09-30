@@ -777,6 +777,7 @@ canvas{
 
 .statistic-area{
     background-image: url(../images/statistic/stats.jpg);
+    opacity:0.8;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
